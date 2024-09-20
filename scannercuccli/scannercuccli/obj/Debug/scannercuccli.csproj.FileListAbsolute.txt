@@ -1,0 +1,3 @@
+C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.AssemblyReference.cache
+C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.SuggestedBindingRedirects.cache
+C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.CoreCompileInputs.cache
