@@ -1,3 +1,11 @@
 C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.AssemblyReference.cache
 C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.SuggestedBindingRedirects.cache
 C:\biztosanmenu\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.CoreCompileInputs.cache
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.exe.config
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.exe
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.pdb
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.AssemblyReference.cache
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.SuggestedBindingRedirects.cache
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.CoreCompileInputs.cache
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.exe
+C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.pdb
