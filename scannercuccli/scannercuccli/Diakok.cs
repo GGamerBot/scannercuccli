@@ -32,15 +32,17 @@ namespace scannercuccli
                 index++;
             }
         }
-        public void DiakKereses(string kod)
+        public bool DiakKereses(string kod)
         {
+            bool van = false;
             foreach (var diak in diakokList)
             {
                 if (diak.Kod == kod)
                 {
-                    Console.WriteLine(diak);
+                    van = true;
                 }
             }
+            return van;
         }
 
         public override string ToString()
