@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -40,6 +41,16 @@ namespace scannercuccli
                     Console.WriteLine(diak);
                 }
             }
+        }
+
+        public override string ToString()
+        {
+            string s = "";
+            foreach (Diak diak in diakokList)
+            {
+                s += diak + "\n";
+            }
+            return s;
         }
     }
 }

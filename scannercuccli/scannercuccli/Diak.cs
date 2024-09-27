@@ -23,21 +23,6 @@ namespace scannercuccli
         public string SzulDatum { get => szulDatum; }
         public string Kod { get => kod; set => kod = value; }
 
-
-
-        public string GetKod()
-        {
-            return this.kod;
-        }
-        public string GetNev()
-        {
-            return this.nev;
-        }
-        public string GetSzuldatum()
-        {
-            return this.szulDatum;
-        }
-
         public override string ToString()
         {
             return $"{this.nev} {this.szulDatum} {this.kod}";
