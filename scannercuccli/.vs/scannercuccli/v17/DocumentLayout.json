@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|solutionrelative:scannercuccli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\scannerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|solutionrelative:scannercuccli\\scannerprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|c:\\users\\di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C1D1FB8-95C8-4552-A017-22508681E011}|scannercuccli\\scannercuccli.csproj|solutionrelative:scannercuccli\\adatsor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,47 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Adatsor.cs",
-              "DocumentMoniker": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\Adatsor.cs",
-              "RelativeDocumentMoniker": "scannercuccli\\Adatsor.cs",
-              "ToolTip": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\Adatsor.cs",
-              "RelativeToolTip": "scannercuccli\\Adatsor.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:55:52.735Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScannerProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\ScannerProgram.cs",
-              "RelativeDocumentMoniker": "scannercuccli\\ScannerProgram.cs",
-              "ToolTip": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\ScannerProgram.cs",
-              "RelativeToolTip": "scannercuccli\\ScannerProgram.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:55:52.837Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\Program.cs",
-              "RelativeDocumentMoniker": "scannercuccli\\Program.cs",
-              "ToolTip": "C:\\Users\\Di\u00E1k\\source\\repos\\scannercuccli\\scannercuccli\\scannercuccli\\Program.cs",
-              "RelativeToolTip": "scannercuccli\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:55:53.15Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

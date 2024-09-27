@@ -10,30 +10,33 @@ namespace scannercuccli
 	{
 		string vonalkod;
 		DateTime idopont;
-		//bool belepE; TBA
+		bool belepE; 
 
 		//Be/kilépés rögzítése a belépés időpontjában
-		public Adatsor(string vonalkod)
+		public Adatsor(string vonalkod, bool belepE)
 		{
 			this.vonalkod = vonalkod;
 			this.idopont = DateTime.Now;
+			this.belepE	= belepE;
 		}
 
 		//Be/kilépés utólagos rögzítésére
-		public Adatsor(string vonalkod, DateTime idopont)
+		public Adatsor(string vonalkod, DateTime idopont, bool belepE)
 		{
 			this.vonalkod = vonalkod;
 			this.idopont = idopont;
+			this.belepE = belepE;
 		}
 
 		public string Vonalkod { get => vonalkod; }
 		public DateTime Idopont { get => idopont; }
+		public bool BelepE { get => belepE; }
 
 		//CSV készítésére való!
 		public override string ToString()
 		{
 
-			return $"{vonalkod};{idopont.Year}.{idopont.Month}.{idopont.Day} {idopont.Hour}:{idopont.Minute}:{idopont.Second}";
+			return $"{vonalkod};{idopont.Year}.{idopont.Month}.{idopont.Day} {idopont.Hour}:{idopont.Minute}:{idopont.Second};{belepE}";
 		}
 
 	}

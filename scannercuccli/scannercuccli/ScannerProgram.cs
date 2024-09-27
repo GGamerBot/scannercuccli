@@ -32,19 +32,23 @@ namespace scannercuccli
 						break;
 					}
 				}
-					if (scannedCodes.Contains(code))
-					{
-						Console.WriteLine($"A {code} kódu diák kilépett.");
-						scannedCodes.Remove(code);
-					}
-					else
-					{
-						Console.WriteLine($"A {code} kódu diák belépett.");
-						scannedCodes.Add(code);
-					}
-					adatbazis.Add(new Adatsor(code));
+				if (scannedCodes.Contains(code))
+				{
+					Console.WriteLine($"A {code} kódu diák kilépett.");
+					scannedCodes.Remove(code);
+					adatbazis.Add(new Adatsor(code, false));
 
 				}
+				else
+				{
+					Console.WriteLine($"A {code} kódu diák belépett.");
+					scannedCodes.Add(code);
+					adatbazis.Add(new Adatsor(code, true));
+
+				}
+
+
 			}
 		}
 	}
+}
