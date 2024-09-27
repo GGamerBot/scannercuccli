@@ -9,3 +9,10 @@ C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\
 C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.CoreCompileInputs.cache
 C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.exe
 C:\Users\Diák\Source\Repos\GGamerBot\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.pdb
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.AssemblyReference.cache
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.csproj.CoreCompileInputs.cache
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.exe
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\obj\Debug\scannercuccli.pdb
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.exe.config
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.exe
+C:\Users\Diák\Source\Repos\scannercuccli\scannercuccli\scannercuccli\bin\Debug\scannercuccli.pdb

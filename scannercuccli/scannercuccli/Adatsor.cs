@@ -29,11 +29,11 @@ namespace scannercuccli
 		public string Vonalkod { get => vonalkod; }
 		public DateTime Idopont { get => idopont; }
 
-		//CSV készítésére való!!
+		//CSV készítésére való!
 		public override string ToString()
 		{
 
-			return $"{vonalkod};{idopont.Year}.{idopont.Month}.{idopont.Day};{idopont.Hour}:{idopont.Minute}:{idopont.Second}";
+			return $"{vonalkod};{idopont.Year}.{idopont.Month}.{idopont.Day} {idopont.Hour}:{idopont.Minute}:{idopont.Second}";
 		}
 
 	}
