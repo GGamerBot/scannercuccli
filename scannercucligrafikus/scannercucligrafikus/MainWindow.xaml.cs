@@ -4,67 +4,72 @@ using System.Windows;
 
 namespace ScannerApp
 {
-	//idk hogyan kell összekötni a többivel majd abba kell help
-	public partial class MainWindow : Window
-	{
-		private HashSet<string> scannedCodes = new HashSet<string>();
-		private List<Adatsor> adatbazis = new List<Adatsor>();
+    public partial class MainWindow : Window
+    {
+        private HashSet<string> scannedCodes = new HashSet<string>();
+        private List<Adatsor> adatbazis = new List<Adatsor>();
 
-		public MainWindow()
-		{
-			InitializeComponent();
-		}
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
 
-		private void btnScan_Click(object sender, RoutedEventArgs e)
-		{
-			string code = txtInput.Text.Trim();
-			txtInput.Clear(); // Töröljük a bemeneti mezőt
+        // TextBox esemény, ami akkor aktiválódik, ha új szöveg érkezik (pl. szkenner beolvasás)
+        private void txtInput_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            string code = txtInput.Text.Trim();
 
-			if (string.IsNullOrWhiteSpace(code))
-			{
-				MessageBox.Show("Kérlek, adj meg egy kódot!");
-				return;
-			}
+            // Ellenőrizzük, hogy a szöveg hossza 10 karakter
+            if (code.Length == 10)
+            {
+                ProcessCode(code);  // Kód feldolgozása
+                txtInput.Clear();   // Töröljük a bemeneti mezőt a következő kódhoz
+            }
+        }
 
-			// Ha a felhasználó egy kilépés kódot ad meg
-			if (scannedCodes.Contains(code))
-			{
-				MessageBox.Show($"A {code} kódu diák kilépett.");
-				scannedCodes.Remove(code); // Törölni a kódot
-				adatbazis.RemoveAll(adat => adat.Code == code); // Az adatbázisból is töröljük
-			}
-			else
-			{
-				MessageBox.Show($"A {code} kódu diák belépett.");
-				scannedCodes.Add(code); // Hozzáadjuk a kódot
-				adatbazis.Add(new Adatsor(code)); // Adatsor hozzáadása
-			}
-		}
+        // Kód feldolgozása
+        private void ProcessCode(string code)
+        {
+            // Ha a felhasználó egy kilépés kódot ad meg (pl. újra beolvassa)
+            if (scannedCodes.Contains(code))
+            {
+                scannedCodes.Remove(code); // Törölni a kódot
+                adatbazis.RemoveAll(adat => adat.Code == code); // Az adatbázisból is töröljük
+            }
+            else
+            {
+                scannedCodes.Add(code); // Hozzáadjuk a kódot
+                adatbazis.Add(new Adatsor(code)); // Adatsor hozzáadása
+            }
 
-		private void DisplayResults()
-		{
-			txtOutput.Clear();
-			foreach (var adatsor in adatbazis)
-			{
-				txtOutput.AppendText(adatsor.ToString() + Environment.NewLine);
-			}
-			// TBA: CSV file-ba írás
-		}
-	}
+            DisplayResults();
+        }
 
-	// Az adatsor osztály definíciója
-	public class Adatsor
-	{
-		public string Code { get; }
+        // Eredmények megjelenítése
+        private void DisplayResults()
+        {
+            txtOutput.Clear();
+            foreach (var adatsor in adatbazis)
+            {
+                txtOutput.AppendText(adatsor.ToString() + Environment.NewLine);
+            }
+            // TBA: CSV file-ba írás
+        }
+    }
 
-		public Adatsor(string code)
-		{
-			Code = code;
-		}
+    // Az adatsor osztály definíciója
+    public class Adatsor
+    {
+        public string Code { get; }
 
-		public override string ToString()
-		{
-			return Code; // Esetleg itt módosíthatod, hogy több adatot is tartalmazzon
-		}
-	}
+        public Adatsor(string code)
+        {
+            Code = code;
+        }
+
+        public override string ToString()
+        {
+            return Code; // Esetleg itt módosíthatod, hogy több adatot is tartalmazzon
+        }
+    }
 }

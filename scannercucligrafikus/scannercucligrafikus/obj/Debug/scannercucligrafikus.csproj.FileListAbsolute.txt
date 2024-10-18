@@ -1,0 +1,14 @@
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\bin\Debug\scannercucligrafikus.exe.config
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\bin\Debug\scannercucligrafikus.exe
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\bin\Debug\scannercucligrafikus.pdb
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.csproj.AssemblyReference.cache
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\MainWindow.baml
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\MainWindow.g.cs
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\App.g.cs
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus_MarkupCompile.cache
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.g.resources
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.Properties.Resources.resources
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.csproj.GenerateResource.cache
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.csproj.CoreCompileInputs.cache
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.exe
+C:\Users\dudas\source\repos\scannerGrafikus\scannercucligrafikus\scannercucligrafikus\obj\Debug\scannercucligrafikus.pdb
